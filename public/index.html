@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Face Recognition & WebGL</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav>
+        <div class="logo">FaceVision AI</div>
+        <ul class="nav-links">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h1>Experience the Future of AI</h1>
+        <p>Real-time Face Recognition & 3D Visualization with OpenGL</p>
+        <button onclick="startWebGL()">Try Now</button>
+    </section>
+
+    <!-- Webcam & WebGL Display -->
+    <section class="ai-container">
+        <div class="camera-feed">
+            <h2>Live Face Detection</h2>
+            <img id="faceImg" width="400px" />
+        </div>
+        <div class="webgl-display">
+            <h2>3D WebGL Visualization</h2>
+            <canvas id="webglCanvas"></canvas>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 FaceVision AI. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
